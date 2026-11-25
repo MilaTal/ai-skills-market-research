@@ -38,8 +38,8 @@
     },
     {
       "path": "FETCH_PROMPT.md",
-      "sha256": "b325b36d05ec0bd6ec65925a50a59e990bd5529ff68bc9d29aeb4fff3d1cf8a3",
-      "bytes": 4273
+      "sha256": "c3749425f4e7ea876d43c3d5353ef3227a790a1b6a13b371520ed86c203bb0ce",
+      "bytes": 4409
     },
     {
       "path": "INSTALL.md",
@@ -136,5 +136,6 @@
       "sha256": "5e5532e25560450504af5da2a1674080bb7c5a58ee4d7d7642afa99eacaa6f6a",
       "bytes": 4738
     }
-  ]
+  ],
+  "repo": "https://github.com/MilaTal/ai-skills-market-research"
 }

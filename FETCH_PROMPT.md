@@ -1,12 +1,12 @@
 # Промпт для принимающей машины
 
-Скопировать целиком в чат агента на локальной машине (Claude Code, ZCode или другой хост с доступом к файлам и терминалу). Заменить `REPO_URL_PLACEHOLDER` на адрес репозитория.
+Скопировать целиком в чат агента на локальной машине (Claude Code, ZCode или другой хост с доступом к файлам и терминалу). Заменить `https://github.com/MilaTal/ai-skills-market-research` на адрес репозитория.
 
 ---
 
 Забери пакет скиллов поиска по рынку из GitHub и установи его на эту машину.
 
-**Репозиторий:** REPO_URL_PLACEHOLDER
+**Репозиторий:** https://github.com/MilaTal/ai-skills-market-research
 **Целевая папка:** `Р - Technical - Ai Projects - Ai Skills`
 
 Шаги:
@@ -14,7 +14,7 @@
 1. Найди на дисках папку `Р - Technical - Ai Projects - Ai Skills` (поиск по имени, глубина до 5). Если не нашёл — не создавай наугад, спроси у меня полный путь. Внутри должна появиться структура `skills\` и `data\`.
 
 2. Забери репозиторий во временную папку:
-   - если есть `git`: `git clone --depth 1 REPO_URL_PLACEHOLDER "%TEMP%\ai-skills-fetch"`;
+   - если есть `git`: `git clone --depth 1 https://github.com/MilaTal/ai-skills-market-research "%TEMP%\ai-skills-fetch"`;
    - если git нет: скачай архив `https://github.com/<owner>/<repo>/archive/refs/heads/main.zip` через curl/PowerShell и распакуй.
 
 3. Скопируй в целевую папку: `skills\` (market-research, market-news), `data\registries\`, `README.md`, `INSTALL.md`. Существующие файлы не перезаписывай молча: при конфликте покажи различия и спроси.
