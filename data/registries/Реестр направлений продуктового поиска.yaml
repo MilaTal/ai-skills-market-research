@@ -1,0 +1,80 @@
+# Направления продуктового поиска — для скилла market-news (только свежая информация).
+# Собрано 11.10.2026 из пометок «да» владельца (перечень А1–А17) и девяти отчётов
+# «Продукты — отмеченные направления». Правит владелец.
+# status: active — идёт в поиск; excluded — нет. topics — номера тем из «Реестр тем поиска.yaml».
+# report — базовый отчёт: агент читает его, чтобы не повторять уже известное.
+updated: "11.10.2026"
+directions:
+  - id: P1
+    short: "Договоры и legal AI"
+    marks: [A1, A2, A3]
+    topics: [1]
+    status: active
+    coverage: "Генеративный legal AI и консолидаторы; CLM с ИИ по сегментам (юрслужбы, закупки, contract-to-cash, средний бизнес, IDP); обязательства после подписания и связка «договор → ERP → исполнение»; Россия — ИИ-проверка договоров, юр-ассистенты, СЭД/CLM с ИИ, 1С"
+    seeds: "Harvey, Legora, Eudia, Clio, Spellbook, Luminance, Ironclad, Icertis, Sirion, DocuSign IAM, Juro; Нейроюрист, КонсультантПлюс, Контур.Фокус, Directum, Docsvision, Doczilla, Content AI"
+    report: "01 Договоры и legal AI.md"
+  - id: P2
+    short: "Нормоконтроль и мониторинг законодательства"
+    marks: [A4, A5]
+    topics: [1, 3, 4]
+    status: active
+    coverage: "ИИ-проверка проектной, рабочей и исполнительной документации на соответствие нормам; отслеживание изменений законодательства и регуляторики с оценкой влияния на продукт или процесс"
+    seeds: "NormaChecker, ЗаконИИ, «Цифровой нормоконтроль», Главгосэкспертиза, BIM Inspector, Archistar, CodeComply, CivCheck, Solibri; CUBE, Compliance.ai, Ascent, Regology, Corlytics, ГАРАНТ, Кодекс"
+    report: "02 Нормоконтроль и мониторинг законодательства.md"
+  - id: P3
+    short: "Входящие заказы, КП, RFQ и B2B-боты"
+    marks: [A6, A7]
+    topics: [2]
+    status: active
+    coverage: "Ввод заказов, КП и ответы на RFQ из писем и вложений у производителей и дистрибьюторов; B2B-боты для входящих обращений, классификация, маршрутизация, интеграция с CRM и 1С"
+    seeds: "Conexiom, Workist, Canals, Endeavor, Parspec, Rundoo, Mercura, Distro, Soff, Seals, Avent, Comena, Hexa, Whitespace; Innde, SalesAI, MoonAI, Botseller, Technologika, 1С Тренд"
+    report: "03 Входящие заказы, КП, RFQ и B2B-боты.md"
+  - id: P4
+    short: "ИИ-помощник по знаниям и ИИ-аналитик данных"
+    marks: [A8, A9]
+    topics: [3, 8]
+    status: active
+    coverage: "Корпоративный ИИ-помощник по знаниям и интеллектуальный поиск (RAG, права, ссылки на источник); ИИ-агент бизнес-аналитики «вопрос → запрос к данным → ответ»"
+    seeds: "Glean, Guru, Moveworks, Microsoft 365 Copilot, Rovo; InKnowledge, TEAMLY, Minerva, GigaChat Enterprise, Yandex AI Studio; ThoughtSpot, Databricks Genie, Snowflake Cortex Analyst, Looker, Visiology Cortex, DataLens"
+    report: "04 ИИ-помощник по знаниям и ИИ-аналитик данных.md"
+  - id: P5
+    short: "Техдокументация, комплект к отгрузке, цифровые инструкции"
+    marks: [A10, A11]
+    topics: [3]
+    status: active
+    coverage: "Сборка комплекта документации к отгрузке под заказ и конфигурацию с привязкой к ERP и PLM; цифровые многоязычные инструкции (регламент ЕС 2023/1230), ИИ-конвертация унаследованной документации в DITA/iiRDS, ИЭТР"
+    seeds: "DocBoss, Idox FusionLive, Schema ST4/Quanos, Docufy, Paligo, Author-it, Fluid Topics, Tridion Docs, Heretto, Stilo, DCL; ЛОЦМАН:PLM, T-FLEX DOCs, 1С:PDM, Seamatica, TG Builder"
+    report: "05 Техдокументация — комплект к отгрузке и цифровые инструкции.md"
+  - id: P6
+    short: "Стройка: ход работ, графики, связка с деньгами"
+    marks: [A12, A14]
+    topics: [4]
+    status: active
+    coverage: "Контроль хода работ по фото и видео 360° против BIM и графика; ИИ-графики и прогноз срыва; проверка чертежей; данные с площадки; связка «ход ↔ график ↔ деньги»"
+    seeds: "Buildots, OpenSpace, Doxel, DroneDeploy, nPlan, Foresight, ALICE, LightTable, Rhumbix, Procore AI; Самолёт 10D, Pilot-BIM, ЦКС ДОМ.РФ, Exon, ЦУС, Сигнал, Skyeer"
+    report: "06 Стройка — ход работ, графики и связка с деньгами.md"
+  - id: P7
+    short: "Стройка: сметы, тендеры, договоры, ИИ-агенты"
+    marks: [A13, A15]
+    topics: [4, 9]
+    status: active
+    coverage: "Сметы и подсчёт объёмов по чертежам; тендеры и сравнение заявок подрядчиков; анализ строительных договоров; ИИ-агенты в стеке промышленных и строительных компаний"
+    seeds: "HCSS, Togal, Beam AI, Kreo, ProcurePro, Datagrid, Document Crunch, Trunk Tools, Arrakis; Сметрикс, ПРОСТОСМЕТА, freesmetaonline, Smeta.AI, KT-team"
+    report: "07 Стройка — сметы, тендеры, договоры и ИИ-агенты.md"
+  - id: P8
+    short: "Закупки промышленности"
+    marks: [A16]
+    topics: [6]
+    status: active
+    coverage: "ИИ в закупках сложных ТМЦ: поиск и проверка поставщиков, спецификации и аналоги, запрос цен и сравнение КП, ИИ-переговоры, переписка с китайскими поставщиками, ВЭД, контроль поставки"
+    seeds: "Tacto, Pactum, Keelvar, Fairmarkit, Didero, Scoutbee, Accio, JD Industrials, ZKH, Verusen; B2B-Center, РТС-тендер, ТЭК-Торг, MBS Group, EFSOL"
+    report: "08 Закупки промышленности.md"
+  - id: P9
+    short: "СЭД с ИИ"
+    marks: [A17]
+    topics: [5]
+    status: active
+    note: "Тема 5 исключена 11.10.2026, но строка отмечена владельцем «да»"
+    coverage: "Системы электронного документооборота с ИИ: распознавание и классификация входящих, автозаполнение карточек, выжимки, маршрутизация, поиск по смыслу, контроль поручений"
+    seeds: "Directum RX, Тезис, 1С:Документооборот, DocsVision, ЭЛМА, Логика бизнеса, «Дело», CompanyMedia, Saby; OpenText, M-Files, Box AI, SharePoint Premium, Hyland"
+    report: "09 СЭД с ИИ.md"

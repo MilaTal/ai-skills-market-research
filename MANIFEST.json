@@ -1,0 +1,140 @@
+{
+  "name": "ai-skills-market-research",
+  "version": "2026.11.25",
+  "created": "2026-11-25",
+  "skills": [
+    "market-research",
+    "market-news"
+  ],
+  "python": ">=3.10",
+  "deps": [
+    "pyyaml"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "01e5c4b79aae5765f011b6074943e3e258460614f90d597fb4d56de0576debbe",
+      "bytes": 39
+    },
+    {
+      "path": "data/registries/Реестр направлений продуктового поиска.yaml",
+      "sha256": "42744a7d3df0e7fe7c564338900f2d0dbfd32a57546e99594a698fa6a8a9d65a",
+      "bytes": 7873
+    },
+    {
+      "path": "data/registries/Реестр тем поиска.yaml",
+      "sha256": "26ba887e5116de2c8f1e205f79388187b7c0d89d8ec767f9d75106e515eb9a61",
+      "bytes": 8005
+    },
+    {
+      "path": "data/registries/Требования к поиску по рынку — темы и критерии.md",
+      "sha256": "26fe9d358cacb3fc3eaa5a2a7602580181225ece7f68d79f2d473b22a65c0ae1",
+      "bytes": 29867
+    },
+    {
+      "path": "FETCH_PROMPT.md",
+      "sha256": "b325b36d05ec0bd6ec65925a50a59e990bd5529ff68bc9d29aeb4fff3d1cf8a3",
+      "bytes": 4273
+    },
+    {
+      "path": "INSTALL.md",
+      "sha256": "18f45bdaf1359836398d38a4ed1a66d57ad5bc2d5766f13baef7fdcd6d848101",
+      "bytes": 4236
+    },
+    {
+      "path": "README.md",
+      "sha256": "a2df0377d60d744e4d8571081d0f7725a5865c9e146cdb7fac8f08da98e746e0",
+      "bytes": 3424
+    },
+    {
+      "path": "skills/market-news/SKILL.md",
+      "sha256": "d31c63ef34837892552108cf13ab849411967f7ca1d69f9266548f6b0782bd59",
+      "bytes": 9018
+    },
+    {
+      "path": "skills/market-news/templates/direction.md",
+      "sha256": "86aceef7509a20b56e213edd0d4e554664c5e45cc597b3b4c9d59ddce1da065f",
+      "bytes": 3916
+    },
+    {
+      "path": "skills/market-news/tools/build_news_prompts.py",
+      "sha256": "51551f930c8f2c48ac34e79967f6b113420b5f5aec1b173033f6ac36bd97617e",
+      "bytes": 4431
+    },
+    {
+      "path": "skills/market-news/tools/check_window.py",
+      "sha256": "5e5532e25560450504af5da2a1674080bb7c5a58ee4d7d7642afa99eacaa6f6a",
+      "bytes": 4738
+    },
+    {
+      "path": "skills/market-research/SKILL.md",
+      "sha256": "c94fe2bee6caae5c1c0ed828f9b0623923955a5127b876e3eaaf4e6cf130b256",
+      "bytes": 12406
+    },
+    {
+      "path": "skills/market-research/templates/wave1_topic.md",
+      "sha256": "be1984b168ed108d760875624aa7bdeaa66670c43333c9e6ddd390a769eb6c7a",
+      "bytes": 3188
+    },
+    {
+      "path": "skills/market-research/templates/wave2_russia.md",
+      "sha256": "27e76df7e9e086137a15fc112a7af95a2de1fb88e8baaa48d6e747c1c0d785f4",
+      "bytes": 4458
+    },
+    {
+      "path": "skills/market-research/templates/wave2_world.md",
+      "sha256": "17399ff52642dee8f63b7a50e77a401d1d43413e58630982be552f8a3fa6f5b4",
+      "bytes": 4571
+    },
+    {
+      "path": "skills/market-research/templates/wave3_angels.md",
+      "sha256": "471b23756da0c95dff9c7e8a9ade38bf02be67f1e28a5ad9573a5586788a968c",
+      "bytes": 1706
+    },
+    {
+      "path": "skills/market-research/templates/wave3_common.md",
+      "sha256": "348437f01133e77bb0abf22557cefcd9f6637a7292c5e9aefdf94534b9f89c07",
+      "bytes": 1298
+    },
+    {
+      "path": "skills/market-research/templates/wave3_funds.md",
+      "sha256": "af904418fc290453c0a2ed831366c55d735c3253a8168cfd9efc60d56111dd32",
+      "bytes": 2379
+    },
+    {
+      "path": "skills/market-research/templates/wave3_procurement.md",
+      "sha256": "3186c18dd2da496c6ef1f78a2a4f238b0785fec595572dc7446183fefb7d325a",
+      "bytes": 2636
+    },
+    {
+      "path": "skills/market-research/templates/wave3_requests.md",
+      "sha256": "1df2c33118849d987292f4b3461aa2d4087cf772bd620bcaf5084462b2ab7662",
+      "bytes": 2494
+    },
+    {
+      "path": "skills/market-research/templates/wave3_world.md",
+      "sha256": "4effd835b36d1223da5035d2e231821e3217dcfeac65ab3b00c69b3c6548a869",
+      "bytes": 1918
+    },
+    {
+      "path": "skills/market-research/tools/build_prompts.py",
+      "sha256": "f11c41c1976126b6ac00ce7572314b1b9d1d22ad71a007584f2f9a836e48941f",
+      "bytes": 8936
+    },
+    {
+      "path": "skills/market-research/tools/check_report.py",
+      "sha256": "e64a64c0197424a7e1ca24b1bd9e57b073ad255662c7061e30352b996e9ba1ea",
+      "bytes": 4065
+    },
+    {
+      "path": "skills/market-research/tools/check_window.py",
+      "sha256": "5e5532e25560450504af5da2a1674080bb7c5a58ee4d7d7642afa99eacaa6f6a",
+      "bytes": 4738
+    }
+  ]
+}
